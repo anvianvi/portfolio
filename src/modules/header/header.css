@@ -1,0 +1,42 @@
+@media (width>1200px) {
+  .header {
+    position: sticky;
+    top: 0;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .logo-img {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: url(../header/logo.png) no-repeat center center;
+    background-size: contain;
+    background-color: #ffdc43;
+  }
+  .nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #234e70;
+    transition: color 0.3s;
+  }
+  .link:hover {
+    color: #facf0f;
+  }
+}
