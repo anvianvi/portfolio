@@ -3,10 +3,28 @@
   font-weight: 300;
   margin: 0;
   padding: 0;
+  color: #234e70;
   box-sizing: border-box;
   list-style: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
   height: 22222vh;
+}
+
+.btn {
+  background: #facf0f;
+  padding: 1.5rem 8rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: 0.3s;
+  text-decoration: none;
+  color: #234e70;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  color: #facf0f;
+  background: #234e70;
 }
