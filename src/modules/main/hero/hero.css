@@ -29,8 +29,6 @@
     max-width: 930px;
     margin: 0 auto 100px auto;
   }
-  .hero-cta {
-  }
 }
 .hero-scroll {
   position: absolute;
@@ -39,7 +37,6 @@
   height: 40px;
   border: 2px solid #333;
   border-radius: 60px;
-  position: relative;
   overflow: hidden;
 }
 .hero-scroll::before {

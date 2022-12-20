@@ -1,0 +1,40 @@
+@media (width>1200px) {
+  .about {
+    padding: 140px 0;
+    text-align: center;
+    height: 67vh;
+  }
+  .content-about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.about {
+  background: #fafafa;
+}
+
+.content-about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  text-align: left;
+  padding: 50px 0;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-skill {
+  padding: 10px 20px;
+  margin: 0 15px 15px 0;
+  border-radius: 5px;
+  color: #234e70;
+  background: rgba(35, 78, 112, 0.3);
+  font-weight: 700;
+}
+.about-content-paragraph-last {
+  margin: 0 0 50px;
+}
