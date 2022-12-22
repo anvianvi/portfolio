@@ -21,10 +21,9 @@ function About() {
             <h3 className='h3'>My Skills</h3>
             <div className='skills-box'>
               {SKILLS.map((skill) => (
-                <div key={skill.toString()} className='my-skill '>{skill}</div>
+                <div key={skill.id} className='my-skill'> {skill.name}</div>
               ))}
             </div>
-
           </div>
         </div>
 
