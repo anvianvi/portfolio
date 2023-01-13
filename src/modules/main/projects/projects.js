@@ -14,7 +14,7 @@ function Projects() {
             <div className='project-box-text'>
               <div className='project-title'>{project.name}</div>
               <div className='project-description'>{project.description}</div>
-              <a href={project.deploy} className='btn'>Check deploy</a>
+              <a href={project.deploy} className='btn' target="_blank" rel="noreferrer">Check deploy</a>
             </div>
           </div>
         ))}

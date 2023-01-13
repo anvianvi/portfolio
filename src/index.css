@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -11,7 +14,9 @@
 
 .btn {
   background: #facf0f;
-  padding: 15px 80px;
+  padding: 15px 0;
+  text-align: center;
+  width: 255px;
   font-size: 20px;
   text-transform: uppercase;
   display: inline-block;

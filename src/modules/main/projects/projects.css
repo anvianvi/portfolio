@@ -1,12 +1,18 @@
-@media (width>1200px) {
-  .project-box {
-    display: flex;
-    gap: 50px;
-    margin: 50px 0 0 0;
-  }
-  .project-img-container {
-    height: 410px;
-  }
+@media (width>1199px) {
+}
+.project-box {
+  display: flex;
+  gap: 50px;
+  margin: 50px 0 0 0;
+}
+.project-img-container {
+  height: 410px;
+  width: 630px;
+}
+.project-img {
+  /* height: 100%; */
+  width: 100%;
+  border: 1px solid #234e70;
 }
 
 .projects-wrapper {
@@ -28,7 +34,4 @@
 
 .project-description {
   margin: 0 0 60px 0;
-}
-.project-img {
-  height: 100%;
 }
