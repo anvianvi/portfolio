@@ -26,9 +26,9 @@
   width: 47px;
   height: 47px;
   border-radius: 50%;
-  background: url(../header/face.png) no-repeat center center;
-  background-size: contain;
-  background-color: #ffdc43;
+  background: url(../header/logo.webp) no-repeat center center;
+  background-size: cover;
+    background-color: #ffdc43;
   transition: 0.3s;
   border: 4px solid #ffdc43;
 }
