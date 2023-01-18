@@ -1,0 +1,68 @@
+@media (width>1199px) {
+}
+
+.contacts {
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(bg.svg);
+  background-position: center;
+  padding: 50px 0 200px;
+  text-align: center;
+}
+.contacts-text {
+  font-size: 25px;
+  margin: 20px auto 50px;
+  max-width: 940px;
+}
+.mail-me-wrapper {
+  box-shadow: rgb(100 100 100 / 20%) 0 10px 29px 0;
+  background: #fff;
+  width: 940px;
+  height: 700px;
+  padding: 50px 0 70px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-me-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mail-me-lable {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.mail-me-btn {
+  margin: 0 0 0 auto;
+  outline: none;
+  border: 0;
+}
+
+.mail-me-form-input {
+  padding: 5px 10px;
+  width: 100%;
+  border: 0;
+  font-size: 26px;
+  letter-spacing: 0;
+  background: #fafafa;
+  border-radius: 5px;
+  resize: none;
+}
+.mail-me-form-input {
+  outline: 0;
+}
+
+.ths-mesage {
+  font-size: 25px;
+  font-weight: 700;
+  max-width: 700px;
+}
