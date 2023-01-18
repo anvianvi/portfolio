@@ -6,7 +6,7 @@
       rgba(245, 245, 245, 0.8),
       rgba(245, 245, 245, 0.8)
     ),
-    url(hero-bg.svg);
+    url(bg.svg);
   background-position: center;
   height: 102vh;
   margin: -116px 0 0;

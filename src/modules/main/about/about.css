@@ -1,8 +1,7 @@
 @media (width>1199px) {
   .about {
-    padding: 140px 0;
+    padding: 100px 0;
     text-align: center;
-    height: 67vh;
   }
   .content-about-wrapper {
     display: grid;
