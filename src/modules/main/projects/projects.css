@@ -1,13 +1,30 @@
-@media (width>1199px) {
+.projects-wrapper {
+  text-align: center;
+  padding: 20px 0 100px;
 }
 .project-box {
+  position: relative;
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+  gap: 15px;
   margin: 50px 0 0 0;
 }
+
+.project-box:after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 8px;
+  background: #facf0f;
+  border-radius: 20px;
+}
+
 .project-img-container {
-  height: 350px;
-  width: 630px;
+  width: 300px;
+  height: 185px;
   overflow: hidden;
   border: 1px solid #234e70;
 }
@@ -15,23 +32,84 @@
   width: 100%;
 }
 
-.projects-wrapper {
+.project-box-text {
   text-align: center;
-  padding: 100px 0 150px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 280px;
 }
 
 .project-title {
   font-weight: 700;
   font-size: 26px;
-  margin: 0 0 10px 0;
 }
 
-.project-box-text {
-  max-width: 40vw;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+@media (width>750px) {
+  .project-box {
+    gap: 25px;
+    align-items: center;
+    margin: 60px 0 0 0;
+  }
+  .projects-wrapper {
+    padding: 50px 0 100px;
+  }
+  .project-img-container {
+    height: 350px;
+    width: 600px;
+  }
+  .project-box-text {
+    max-width: 550px;
+    gap: 20px;
+  }
 }
 
-
+@media (width>999px) {
+  .projects-wrapper {
+    padding: 70px 0 100px;
+  }
+  .project-box {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .project-img-container {
+    height: 280px;
+    width: 440px;
+  }
+  .project-box-text {
+    text-align: left;
+  }
+  .project-box-text {
+    max-width: 40vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .project-box:after {
+    content: none;
+  }
+  .project-btn {
+    margin: auto 0 0 auto;
+  }
+}
+@media (width>1399px) {
+  .project-img-container {
+    height: 400px;
+    width: 620px;
+  }
+  .projects-wrapper {
+    padding: 100px 0 150px;
+  }
+  .project-title {
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 10px 0;
+  }
+  .project-box-text {
+    height: 400px;
+  }
+}
