@@ -1,6 +1,3 @@
-@media (width>1199px) {
-  
-}
 .header {
   position: sticky;
   top: 0;
@@ -9,7 +6,7 @@
   box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
 }
 .header-wrapper {
-  padding: 25px 0;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   font-size: 23px;
@@ -17,6 +14,97 @@
   font-weight: 700;
   text-decoration: none;
 }
+
+.logo-name {
+  display: none;
+}
+.nav {
+  display: none;
+}
+.nav.open {
+  display: flex;
+  position: relative;
+  z-index: 3;
+  flex-direction: column;
+  position: absolute;
+  right: 15px;
+  top: 80px;
+  text-align: right;
+  gap: 5px;
+}
+
+.menu-bar {
+  width: 41px;
+  height: 47px;
+  padding: 15px 0 0;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+.menu-bar:hover .bar {
+  background: #234e70;
+}
+.bar {
+  height: 5px;
+  width: 100%;
+  background: #ffdc43;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.bar1 {
+  transform: translateY(-4px);
+}
+.bar3 {
+  transform: translateY(4px);
+}
+.nav-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #fafafa, #ffffff);
+  border-radius: 50%;
+  transform: translate(52%, -23%);
+}
+.nav-bg.open {
+  width: 400px;
+  height: 400px;
+}
+.burger-bg {
+  position: absolute;
+  top: 0;
+}
+.burger-bg.open {
+  width: 100vw;
+  height: 97vh;
+  background: transparent;
+}
+
+@media (width>766px) {
+  .logo-name {
+    display: block;
+  }
+}
+@media (width>1199px) {
+  .menu-bar {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .header-wrapper {
+    padding: 25px 0;
+  }
+}
+@media (width>1399px) {
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -28,19 +116,15 @@
   border-radius: 50%;
   background: url(../header/logo.webp) no-repeat center center;
   background-size: cover;
-    background-color: #ffdc43;
-  transition: 0.3s;
+  background-color: #ffdc43;
+  /* transition: 0.3s; */
   border: 4px solid #ffdc43;
 }
-
-.logo-img:hover {
+.logo:hover .logo-img {
   border: 4px solid #234e70;
 }
-
-.nav {
-  display: flex;
-  gap: 30px;
-  align-items: center;
+.logo-img:hover {
+  border: 4px solid #234e70;
 }
 
 .link {

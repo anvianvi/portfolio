@@ -3,6 +3,7 @@ html {
 }
 * {
   box-sizing: border-box;
+  transition: all 0.3s ease;
 }
 .body {
   font-family: 'Open Sans', sans-serif;
@@ -12,6 +13,19 @@ html {
   color: #234e70;
   box-sizing: border-box;
   list-style: none;
+}
+.body::-webkit-scrollbar {
+  width: 0;
+}
+.disable-scroll {
+  overflow: hidden;
+}
+
+@media (width>766px) {
+}
+@media (width>1199px) {
+}
+@media (width>1399px) {
 }
 
 .btn {
