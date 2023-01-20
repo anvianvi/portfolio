@@ -1,13 +1,8 @@
 .hero {
-  background: linear-gradient(
-      to right,
-      rgba(245, 245, 245, 0.8),
-      rgba(245, 245, 245, 0.8)
-    ),
-    url(bg.svg);
+  background: linear-gradient(to right, #f5f5f5, #f5f5f5) url(bg.svg);
   background-position: center;
   position: relative;
-  padding: 70px 0 0;
+  padding: 70px 0;
   height: calc(100vh - 67px);
 }
 
@@ -16,15 +11,18 @@
   margin: 0 auto;
   text-align: center;
 }
+
 .h1 {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .hero-info {
   font-size: 20px;
   margin: 0 auto 10vh auto;
 }
+
 .hero-scroll {
   position: absolute;
   bottom: 10px;
@@ -36,6 +34,7 @@
   border-radius: 60px;
   overflow: hidden;
 }
+
 .hero-scroll::before {
   content: '';
   width: 5px;
@@ -48,15 +47,9 @@
   border-radius: 50%;
   opacity: 1;
   animation: scroll 1.3s infinite;
-  -webkit-animation: scroll 1.3s infinite;
 }
+
 @keyframes scroll {
-  to {
-    opacity: 0;
-    top: 27px;
-  }
-}
-@-webkit-keyframes scroll {
   to {
     opacity: 0;
     top: 27px;
@@ -82,7 +75,7 @@
 }
 @media (width>1399px) {
   .hero {
-    padding: 170px 0 0;
+    padding: 170px 0;
   }
   .hero-info {
     max-width: 930px;
