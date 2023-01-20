@@ -1,9 +1,13 @@
 .hero {
-  background: linear-gradient(to right, #f5f5f5, #f5f5f5) url(bg.svg);
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(bg.svg);
   background-position: center;
   position: relative;
-  padding: 70px 0;
-  height: calc(100vh - 67px);
+  padding-top: 70px;
 }
 
 .hero-content {
@@ -68,14 +72,9 @@
     margin: 0 auto 15vh auto;
   }
 }
-@media (width>999px) {
-  .hero {
-    height: calc(100vh - 97px);
-  }
-}
 @media (width>1399px) {
   .hero {
-    padding: 170px 0;
+    padding-top: 170px;
   }
   .hero-info {
     max-width: 930px;

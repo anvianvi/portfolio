@@ -20,9 +20,15 @@ html {
 .disable-scroll {
   overflow: hidden;
 }
+.like-screen-height {
+  min-height: calc(100vh - 67px);
+}
 @media (width>750px) {
 }
 @media (width>999px) {
+  .like-screen-height {
+    min-height: calc(100vh - 97px);
+  }
 }
 @media (width>1399px) {
 }
