@@ -29,9 +29,9 @@ function MailMeForm() {
       <textarea
         id='message'
         name='message'
-        required='' cols='55' rows='10'
+        required=''
         placeholder='Enter Your Message'
-        className='mail-me-form-input'
+        className='mail-me-form-input textarea'
       />
       <ValidationError
         prefix='Message'

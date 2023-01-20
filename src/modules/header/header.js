@@ -13,7 +13,6 @@ function Header() {
   const closeBurger = () => {
     setisBurgerOpen(false);
     document.body.classList.remove('disable-scroll');
-
   }
 
   return (
@@ -25,20 +24,20 @@ function Header() {
         </a>
 
         <div className={`menu-bar ${isBurgerOpen ? 'open' : ''}`} onClick={handleClick}>
-          <div class='bar bar1'></div>
-          <div class='bar bar2'></div>
-          <div class='bar bar3'></div>
+          <div className='bar bar1'></div>
+          <div className='bar bar2'></div>
+          <div className='bar bar3'></div>
         </div>
 
         <nav className={`nav ${isBurgerOpen ? 'open' : ''}`}>
-          <li className='nav-item'><a href='#hero' className='link' onClick={closeBurger()}>HOME</a></li>
-          <li className='nav-item'><a href='#about' className='link' onClick={closeBurger()}>ABOUT</a></li>
-          <li className='nav-item'><a href='#projects' className='link' onClick={closeBurger()}>PROJECTS</a></li>
-          <li className='nav-item'><a href='#contacts' className='link' onClick={closeBurger()}>CONTACT</a></li>
+          <li className='nav-item'><a href='#hero' className='link' onClick={closeBurger}>HOME</a></li>
+          <li className='nav-item'><a href='#about' className='link' onClick={closeBurger}>ABOUT</a></li>
+          <li className='nav-item'><a href='#projects' className='link' onClick={closeBurger}>PROJECTS</a></li>
+          <li className='nav-item'><a href='#contacts' className='link' onClick={closeBurger}>CONTACT</a></li>
         </nav>
       </div>
-      <div class={`nav-bg ${isBurgerOpen ? 'open' : ''}`}></div>
-      <div class={`burger-bg ${isBurgerOpen ? 'open' : ''}`} onClick={closeBurger()}></div>
+      <div className={`nav-bg ${isBurgerOpen ? 'open' : ''}`}></div>
+      <div className={`burger-bg ${isBurgerOpen ? 'open' : ''}`} onClick={closeBurger}></div>
 
     </header>
   );

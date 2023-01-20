@@ -26,16 +26,10 @@
     text-align: left;
   }
 }
-@media (width>999px) {
-}
-@media (width>1399px) {
-}
-
 .skills-box {
   display: flex;
   flex-wrap: wrap;
 }
-
 .my-skill {
   padding: 10px 20px;
   margin: 0 15px 15px 0;
