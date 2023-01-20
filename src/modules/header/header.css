@@ -93,28 +93,6 @@
   background: transparent;
 }
 
-@media (width>766px) {
-  .logo-name {
-    display: block;
-  }
-}
-@media (width>1199px) {
-  .menu-bar {
-    display: none;
-  }
-  .nav {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-  }
-
-  .header-wrapper {
-    padding: 25px 0;
-  }
-}
-@media (width>1399px) {
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -143,4 +121,26 @@
 
 .link:hover {
   color: #facf0f;
+}
+
+@media (width>750px) {
+  .logo-name {
+    display: block;
+  }
+}
+@media (width>999px) {
+  .menu-bar {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .header-wrapper {
+    padding: 25px 0;
+  }
+}
+@media (width>1399px) {
 }

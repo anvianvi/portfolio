@@ -20,10 +20,9 @@ html {
 .disable-scroll {
   overflow: hidden;
 }
-
-@media (width>766px) {
+@media (width>750px) {
 }
-@media (width>1199px) {
+@media (width>999px) {
 }
 @media (width>1399px) {
 }
