@@ -3,8 +3,9 @@
   top: 0;
   z-index: 2;
   background: #fff;
-  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
+
 .header-wrapper {
   padding: 10px 0;
   display: flex;
@@ -18,9 +19,11 @@
 .logo-name {
   display: none;
 }
+
 .nav {
   display: none;
 }
+
 .nav.open {
   display: flex;
   position: relative;
@@ -41,23 +44,26 @@
   position: relative;
   z-index: 3;
 }
+
 .menu-bar:hover .bar {
   background: #234e70;
 }
+
 .bar {
   height: 5px;
   width: 100%;
   background: #ffdc43;
   display: block;
   border-radius: 5px;
-  transition: 0.3s ease;
 }
+
 .bar1 {
   transform: translateY(-4px);
 }
 .bar3 {
   transform: translateY(4px);
 }
+
 .nav-bg {
   position: absolute;
   top: 0;
@@ -70,14 +76,17 @@
   border-radius: 50%;
   transform: translate(52%, -23%);
 }
+
 .nav-bg.open {
   width: 400px;
   height: 400px;
 }
+
 .burger-bg {
   position: absolute;
   top: 0;
 }
+
 .burger-bg.open {
   width: 100vw;
   height: 97vh;
@@ -98,6 +107,7 @@
     gap: 30px;
     align-items: center;
   }
+
   .header-wrapper {
     padding: 25px 0;
   }
@@ -110,6 +120,7 @@
   align-items: center;
   gap: 5px;
 }
+
 .logo-img {
   width: 47px;
   height: 47px;
@@ -117,12 +128,10 @@
   background: url(../header/logo.webp) no-repeat center center;
   background-size: cover;
   background-color: #ffdc43;
-  /* transition: 0.3s; */
   border: 4px solid #ffdc43;
 }
-.logo:hover .logo-img {
-  border: 4px solid #234e70;
-}
+
+.logo:hover .logo-img,
 .logo-img:hover {
   border: 4px solid #234e70;
 }
@@ -130,8 +139,8 @@
 .link {
   text-decoration: none;
   color: #234e70;
-  transition: color 0.3s;
 }
+
 .link:hover {
   color: #facf0f;
 }
