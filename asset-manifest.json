@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec86e4f0.css",
-    "main.js": "/portfolio/static/js/main.e5761efd.js",
+    "main.css": "/portfolio/static/css/main.65509a53.css",
+    "main.js": "/portfolio/static/js/main.a7c646b9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/book-shop.webp": "/portfolio/static/media/book-shop.76fa44393a0051a52040.webp",
     "static/media/momentum.webp": "/portfolio/static/media/momentum.993c4daa7e7d3c79638e.webp",
@@ -13,12 +13,12 @@
     "static/media/logo.webp": "/portfolio/static/media/logo.76fca4da4954d72dc323.webp",
     "static/media/bg.svg": "/portfolio/static/media/bg.9878fdbb0d963009b072.svg",
     "index.html": "/portfolio/index.html",
-    "main.ec86e4f0.css.map": "/portfolio/static/css/main.ec86e4f0.css.map",
-    "main.e5761efd.js.map": "/portfolio/static/js/main.e5761efd.js.map",
+    "main.65509a53.css.map": "/portfolio/static/css/main.65509a53.css.map",
+    "main.a7c646b9.js.map": "/portfolio/static/js/main.a7c646b9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec86e4f0.css",
-    "static/js/main.e5761efd.js"
+    "static/css/main.65509a53.css",
+    "static/js/main.a7c646b9.js"
   ]
 }
