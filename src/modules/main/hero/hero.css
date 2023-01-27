@@ -7,7 +7,7 @@
     url(bg.svg);
   background-position: center;
   position: relative;
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 .hero-content {
@@ -74,7 +74,7 @@
 }
 @media (width>1399px) {
   .hero {
-    padding-top: 170px;
+    padding: 170px 0;
   }
   .hero-info {
     max-width: 930px;

@@ -1,5 +1,14 @@
 const PROJECTS = [
-
+  {
+    id: 98,
+    img: require('./img/rs-lang.webp'),
+    name: "RS-Lang",
+    description: "RS Lang is an application designed to help users learn English. It was developed by a team of randomly selected individuals from a learning course. My responsibilities included setting up and maintaining a Trello board, deploying the project repository, and configuring automatic deployment. I designed and implemented the main page, textbook page, and about us page, as well as implementing the functionality for the sprint game and textbook. Additionally, I served as a team lead and managed the team's workflow and progress throughout the project.",
+    deploy: "https://anvianvi.github.io/RS-Lang",
+    year: 2022,
+    month: 9,
+    technologies: ["react", "react-router", "js", "css", "html", "api"]
+  },
   {
     id: 100,
     img: require('./img/online-zoo.webp'),
@@ -10,16 +19,7 @@ const PROJECTS = [
     month: 11,
     technologies: ["js", "css", "html"]
   },
-  {
-    id: 96,
-    img: require('./img/shelter.webp'),
-    name: "Shelter",
-    description: "This is an project that involved developing a multi-page website for a pet shelter. It features an adaptive layout and interactive elements on both the main page and the donation page, enhancing the user experience.",
-    deploy: "https://anvianvi.github.io/Shelter/pages/main/",
-    year: 2022,
-    month: 6,
-    technologies: ["js", "css", "html",]
-  },
+
   {
     id: 95,
     img: require('./img/textile-shop.webp'),
@@ -41,14 +41,14 @@ const PROJECTS = [
     technologies: ["js", "css", "html",]
   },
   {
-    id: 98,
-    img: require('./img/rs-lang.webp'),
-    name: "RS-Lang",
-    description: "RS Lang is an application designed to help users learn English. It was developed by a team of randomly selected individuals from a learning course. My responsibilities included setting up and maintaining a Trello board, deploying the project repository, and configuring automatic deployment. I designed and implemented the main page, textbook page, and about us page, as well as implementing the functionality for the sprint game and textbook. Additionally, I served as a team lead and managed the team's workflow and progress throughout the project.",
-    deploy: "https://anvianvi.github.io/RS-Lang",
+    id: 96,
+    img: require('./img/shelter.webp'),
+    name: "Shelter",
+    description: "This is an project that involved developing a multi-page website for a pet shelter. It features an adaptive layout and interactive elements on both the main page and the donation page, enhancing the user experience.",
+    deploy: "https://anvianvi.github.io/Shelter/pages/main/",
     year: 2022,
-    month: 9,
-    technologies: ["react", "react-router", "js", "css", "html", "api"]
+    month: 6,
+    technologies: ["js", "css", "html",]
   },
   {
     id: 99,
